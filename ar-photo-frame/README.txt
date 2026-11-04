@@ -1,9 +1,8 @@
-GitHubに置く構成:
-index.html
-package.json
-src/App.jsx
-src/main.jsx
-src/index.css
+iPhone縦画面向け PNGフレーム対応版
 
-GitHubのWeb画面でフォルダ構成を保つのが難しい場合は、このZIPをPCで展開してからプロジェクトフォルダ全体をアップロードしてください。
-VercelではFramework Preset: Vite、Build Command: npm run build、Output Directory: dist で動作します。
+推奨フレーム: 1080 x 1920 px (9:16) の透明PNG
+ファイル名: public/frame.png
+中央を透明にしてください。
+
+GitHubへこの一式をアップロードしてCommitすると、Vercel連携済みなら自動再デプロイされます。
+カメラ表示と保存画像は9:16で切り出され、frame.pngが重なります。
