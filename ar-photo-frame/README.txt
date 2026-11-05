@@ -1,6 +1,16 @@
-修正版: 複数フレーム + URL直接指定 + 初期外カメラ + iPhone/Android高画質
+縦3種類・横3種類版（JSONメンテ）
 
-通常URL: /  -> フレーム選択
-直接指定: /?frame=01, /?frame=02, /?frame=03
-PNG配置: public/frames/frame01.png など
-旧 public/frame.png は不要です。
+frames.json 登録済み:
+- p01 / portrait01.png / portrait
+- p02 / portrait02.png / portrait
+- p03 / portrait03.png / portrait
+- l01 / landscape01.png / landscape
+- l02 / landscape02.png / landscape
+- l03 / landscape03.png / landscape
+
+推奨PNGサイズ:
+portrait: 1080 x 1920
+landscape: 1920 x 1080
+
+実際のデザインに変える場合は public/frames/ 内の同名PNGを置き換えるだけです。
+App.jsxは編集不要です。

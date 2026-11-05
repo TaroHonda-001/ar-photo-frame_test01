@@ -1,0 +1,8 @@
+[
+  {"id":"p01","name":"縦フレーム 01","image":"portrait01.png","orientation":"portrait"},
+  {"id":"p02","name":"縦フレーム 02","image":"portrait02.png","orientation":"portrait"},
+  {"id":"p03","name":"縦フレーム 03","image":"portrait03.png","orientation":"portrait"},
+  {"id":"l01","name":"横フレーム 01","image":"landscape01.png","orientation":"landscape"},
+  {"id":"l02","name":"横フレーム 02","image":"landscape02.png","orientation":"landscape"},
+  {"id":"l03","name":"横フレーム 03","image":"landscape03.png","orientation":"landscape"}
+]
